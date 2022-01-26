@@ -1,0 +1,10 @@
+C:\Users\viktor.stromberg1\source\repos\GameProhect\GameProhect\bin\Debug\GameProhect.exe.config
+C:\Users\viktor.stromberg1\source\repos\GameProhect\GameProhect\bin\Debug\GameProhect.exe
+C:\Users\viktor.stromberg1\source\repos\GameProhect\GameProhect\bin\Debug\GameProhect.pdb
+C:\Users\viktor.stromberg1\source\repos\GameProhect\GameProhect\obj\Debug\GameProject.csproj.AssemblyReference.cache
+C:\Users\viktor.stromberg1\source\repos\GameProhect\GameProhect\obj\Debug\GameProhect.Form1.resources
+C:\Users\viktor.stromberg1\source\repos\GameProhect\GameProhect\obj\Debug\GameProhect.Properties.Resources.resources
+C:\Users\viktor.stromberg1\source\repos\GameProhect\GameProhect\obj\Debug\GameProject.csproj.GenerateResource.cache
+C:\Users\viktor.stromberg1\source\repos\GameProhect\GameProhect\obj\Debug\GameProject.csproj.CoreCompileInputs.cache
+C:\Users\viktor.stromberg1\source\repos\GameProhect\GameProhect\obj\Debug\GameProhect.exe
+C:\Users\viktor.stromberg1\source\repos\GameProhect\GameProhect\obj\Debug\GameProhect.pdb
