@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 using System.Windows.Forms;
 
 
@@ -16,87 +17,159 @@ Byt Nins special mot en kibabpizza
 
 när man trycker på den så kommer det en kibabpizza
 
+David kom på en bättre ide. Vi rickrollar philip med kibabpizzan istället för en kibabizza :)
+
 
  
- */
+*/
 
 
 namespace GameProhect
 {
     public partial class Form1 : Form
     {
+        bool stillHovering2DPlatformer;
+        bool stillHovringSnake;
+        bool stillHovring3IRad;
+        bool stillHovringKebabpizza;
+        bool stillHoveringStart;
 
-        int[] gameSelector = new int[3] {0, 1, 2};
-        int gamePage;
+
         public Form1()
         {
             InitializeComponent();
             
 
         }
-
-		private void Background_Click(object sender, EventArgs e)
-		{
-
-		}
-
-        private void positiveSlide_Click(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
-
+            nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
+            start3IRad.Location = new Point((this.Width / 2) - (start3IRad.Width / 2) + 80, start3IRad.Location.Y);
+            start2DPlatformer.Location = new Point((this.Width / 2) - (start2DPlatformer.Width / 2) - 80, start2DPlatformer.Location.Y);
+            startSnake.Location = new Point((this.Width / 2) - (startSnake.Width / 2) + 80, startSnake.Location.Y);
+            startPizzaMedKebab.Location = new Point((this.Width / 2) - (startPizzaMedKebab.Width / 2) - 80, startPizzaMedKebab.Location.Y);
+            nameOfTheGame.BackColor = Color.Transparent;
+            timer1.Start();
         }
 
+		
+        
+        
+         
         private void start2DPlatformer_MouseEnter(object sender, EventArgs e)
         {
-            BackColor = Color.FromArgb(0, 200, 0);
-            nameOfTheGame.Text = "2D Platformer";
-            nameOfTheGame.Location = new Point(nameOfTheGame.Location.X - 86, nameOfTheGame.Location.Y);
+            stillHovering2DPlatformer = true;
+            
+
         }
 
         private void start2DPlatformer_MouseLeave(object sender, EventArgs e)
         {
-            BackColor = Color.LightBlue;
-            nameOfTheGame.Text = "Start";
-            nameOfTheGame.Location = new Point(nameOfTheGame.Location.X + 86, nameOfTheGame.Location.Y);
+            stillHovering2DPlatformer = false;
+            //nameOfTheGame.Text = "Start";
+            //BackColor = Color.LightBlue;
+            //nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
         }
 
         private void Start3IRad_MouseEnter(object sender, EventArgs e)
         {
-            BackColor = Color.FromArgb(200, 0, 0);
-            nameOfTheGame.Text = "3 I Rad";
-            nameOfTheGame.Location = new Point(nameOfTheGame.Location.X - 20, nameOfTheGame.Location.Y);
-        }
-
-        private void Start3IRad_MouseLeave(object sender, EventArgs e)
-        {
-            BackColor = Color.LightBlue;
-            nameOfTheGame.Text = "Start";
-            nameOfTheGame.Location = new Point(nameOfTheGame.Location.X + 20, nameOfTheGame.Location.Y);
+           
         }
 
         private void StartSnake_MouseEnter(object sender, EventArgs e)
         {
-            BackColor = Color.FromArgb(0, 0, 200);
-            nameOfTheGame.Text = "Snake";
+          
+        }
+
+        private void Start3IRad_MouseLeave(object sender, EventArgs e)
+        {
+            nameOfTheGame.Text = "Start";
+            BackColor = Color.LightBlue;
+            nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
         }
 
         private void StartSnake_MouseLeave(object sender, EventArgs e)
         {
-            BackColor = Color.LightBlue;
-            nameOfTheGame.Text = "Start";
+            //nameOfTheGame.Text = "Start";
+            //BackColor = Color.LightBlue;
+            //nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
         }
 
         private void StartPizzaMedKebab_MouseEnter(object sender, EventArgs e)
         {
-            BackColor = Color.Purple;
-            nameOfTheGame.Text = "Kebabbpizza";
-            nameOfTheGame.Location = new Point(nameOfTheGame.Location.X - 65, nameOfTheGame.Location.Y);
+            
         }
 
         private void StartPizzaMedKebab_MouseLeave(object sender, EventArgs e)
         {
-            BackColor = Color.LightBlue;
+            //nameOfTheGame.Text = "Start";
+            //BackColor = Color.LightBlue;
+            //nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
+        }
+
+       
+        
+
+
+
+
+        private void start2DPlatformer_MouseHover(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void start3IRad_MouseHover(object sender, EventArgs e)
+        {
+            nameOfTheGame.Text = "3 I Rad";
+            BackColor = Color.FromArgb(200, 0, 0);
+            nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
+        }
+
+        private void startSnake_MouseHover(object sender, EventArgs e)
+        {
+            nameOfTheGame.Text = "Snake";
+            BackColor = Color.FromArgb(0, 0, 200);
+            nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
+        }
+
+        private void startPizzaMedKebab_MouseHover(object sender, EventArgs e)
+        {
+            nameOfTheGame.Text = "Kebabbpizza";
+            BackColor = Color.Purple;
+            nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
+        }
+
+        private void Form1_MouseHover(object sender, EventArgs e)
+        {
             nameOfTheGame.Text = "Start";
-            nameOfTheGame.Location = new Point(nameOfTheGame.Location.X + 65, nameOfTheGame.Location.Y);
+            BackColor = Color.LightBlue;
+            nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (stillHovering2DPlatformer == true || stillHovring3IRad == true || stillHovringKebabpizza == true || stillHovringSnake == true)
+            {
+
+                if (stillHovering2DPlatformer == true)
+                {
+                    Thread.Sleep(1000);
+                    if (stillHovering2DPlatformer == true)
+                    {
+                        nameOfTheGame.Text = "2D Platformer";
+                        BackColor = Color.FromArgb(0, 200, 0);
+                        nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
+                    }
+                }
+            }
+        }
+
+        private void start3IRad_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 f2 = new Form2();
+            f2.ShowDialog();
+            this.Close();
         }
     }
 }

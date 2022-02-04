@@ -1,0 +1,240 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace GameProhect
+{
+    public partial class Form2 : Form
+    {
+
+        Random r = new Random();
+        public int aiPlayer;
+        int rounds = 0;
+
+        public Form2()
+        {
+            InitializeComponent();
+        }
+
+        private void a1_Click(object sender, EventArgs e)
+        {
+            if (a1.Text == "")
+            {
+                a1.Text = "X";
+
+                rounds++;
+                Ai();
+            }
+        }
+
+        private void a2_Click(object sender, EventArgs e)
+        {
+            if (a2.Text == "")
+            {
+                a2.Text = "X";
+                rounds++;
+                Ai();
+            }
+            
+        }
+
+        private void a3_Click(object sender, EventArgs e)
+        {
+            if (a3.Text == "")
+            {
+                a3.Text = "X";
+                rounds++;
+                Ai();
+            }
+            
+        }
+
+        private void b1_Click(object sender, EventArgs e)
+        {
+            if (b1.Text == "")
+            {
+                b1.Text = "X";
+                rounds++;
+                Ai();
+            }
+         
+        }
+
+        private void b2_Click(object sender, EventArgs e)
+        {
+            if (b2.Text == "")
+            {
+                b2.Text = "X";
+                rounds++;
+                Ai();
+            }
+        }
+
+        private void b3_Click(object sender, EventArgs e)
+        {
+            if (b3.Text == "")
+            {
+                b3.Text = "X";
+                rounds++;
+                Ai();
+            }
+        }
+
+        private void c1_Click(object sender, EventArgs e)
+        {
+            if (c1.Text == "")
+            {
+                c1.Text = "X";
+                rounds++;
+                Ai();
+            }
+
+        }
+
+        private void c2_Click(object sender, EventArgs e)
+        {
+            if (c2.Text == "")
+            {
+                c2.Text = "X";
+                rounds++;
+                Ai();
+            }
+        }
+
+        private void c3_Click(object sender, EventArgs e)
+        {
+            if (c3.Text == "")
+            {
+                c3.Text = "X";
+                rounds++;
+                Ai();
+            }
+
+        }
+
+        private void Ai()
+        {
+            while (true)
+            {
+                if (rounds <= 7)
+                {
+
+                aiPlayer = r.Next(1, 10);
+
+                if (aiPlayer == 1)
+                {
+                    if (a1.Text == "")
+                    {
+
+                        a1.Text = "O";
+                        rounds++;
+                        break;
+                    }
+                }
+                else if (aiPlayer == 2)
+                {
+                    if (a2.Text == "")
+                    {
+
+                        a2.Text = "O";
+                        rounds++;
+                        break;
+                    }
+                }
+                else if (aiPlayer == 3)
+                {
+                    if (a3.Text == "")
+                    {
+
+                        a3.Text = "O";
+                        rounds++;
+                        break;
+                    }
+                }
+                else if (aiPlayer == 4)
+                {
+                    if (b1.Text == "")
+                    {
+
+                        b1.Text = "O";
+                        rounds++;
+                        break;
+                    }
+                }
+                else if (aiPlayer == 5)
+                {
+                    if (b2.Text == "")
+                    {
+
+                        b2.Text = "O";
+                        rounds++;
+                        break;
+                    }
+                }
+                else if (aiPlayer == 6)
+                {
+                    if (b3.Text == "")
+                    {
+
+                        b3.Text = "O";
+                        rounds++;
+                        break;
+                    }
+                }
+                else if (aiPlayer == 7)
+                {
+                    if (c1.Text == "")
+                    {
+
+                        c1.Text = "O";
+                        rounds++;
+                        break;
+                    }
+                }
+                else if (aiPlayer == 8)
+                {
+                    if (c2.Text == "")
+                    {
+
+                        c2.Text = "O";
+                        rounds++;
+                        break;
+                    }
+                }
+                else
+                {
+                    if (c3.Text == "")
+                    {
+
+                        c3.Text = "O";
+                        rounds++;
+                        break;
+                    }
+                }
+
+                }
+                else
+                {
+                    break;
+                }
+
+            }
+
+        }
+
+
+        private void CheckWin()
+        {
+            if (a1.Text == "X" && a2.Text == "X" && a3.Text == "X")
+            {
+
+            }
+        }
+    }
+}

@@ -28,11 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.start2DPlatformer = new System.Windows.Forms.Button();
             this.nameOfTheGame = new System.Windows.Forms.Label();
-            this.Start3IRad = new System.Windows.Forms.Button();
-            this.StartPizzaMedKebab = new System.Windows.Forms.Button();
-            this.StartSnake = new System.Windows.Forms.Button();
+            this.start3IRad = new System.Windows.Forms.Button();
+            this.startPizzaMedKebab = new System.Windows.Forms.Button();
+            this.startSnake = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // start2DPlatformer
@@ -46,6 +48,7 @@
             this.start2DPlatformer.UseVisualStyleBackColor = true;
             this.start2DPlatformer.MouseEnter += new System.EventHandler(this.start2DPlatformer_MouseEnter);
             this.start2DPlatformer.MouseLeave += new System.EventHandler(this.start2DPlatformer_MouseLeave);
+            this.start2DPlatformer.MouseHover += new System.EventHandler(this.start2DPlatformer_MouseHover);
             // 
             // nameOfTheGame
             // 
@@ -58,41 +61,49 @@
             this.nameOfTheGame.TabIndex = 1;
             this.nameOfTheGame.Text = "Start";
             // 
-            // Start3IRad
+            // start3IRad
             // 
-            this.Start3IRad.Location = new System.Drawing.Point(294, 280);
-            this.Start3IRad.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Start3IRad.Name = "Start3IRad";
-            this.Start3IRad.Size = new System.Drawing.Size(117, 63);
-            this.Start3IRad.TabIndex = 2;
-            this.Start3IRad.Text = "3 I Rad";
-            this.Start3IRad.UseVisualStyleBackColor = true;
-            this.Start3IRad.MouseEnter += new System.EventHandler(this.Start3IRad_MouseEnter);
-            this.Start3IRad.MouseLeave += new System.EventHandler(this.Start3IRad_MouseLeave);
+            this.start3IRad.Location = new System.Drawing.Point(294, 280);
+            this.start3IRad.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.start3IRad.Name = "start3IRad";
+            this.start3IRad.Size = new System.Drawing.Size(117, 63);
+            this.start3IRad.TabIndex = 2;
+            this.start3IRad.Text = "3 I Rad";
+            this.start3IRad.UseVisualStyleBackColor = true;
+            this.start3IRad.Click += new System.EventHandler(this.start3IRad_Click);
+            this.start3IRad.MouseEnter += new System.EventHandler(this.Start3IRad_MouseEnter);
+            this.start3IRad.MouseLeave += new System.EventHandler(this.Start3IRad_MouseLeave);
+            this.start3IRad.MouseHover += new System.EventHandler(this.start3IRad_MouseHover);
             // 
-            // StartPizzaMedKebab
+            // startPizzaMedKebab
             // 
-            this.StartPizzaMedKebab.Location = new System.Drawing.Point(294, 492);
-            this.StartPizzaMedKebab.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.StartPizzaMedKebab.Name = "StartPizzaMedKebab";
-            this.StartPizzaMedKebab.Size = new System.Drawing.Size(117, 63);
-            this.StartPizzaMedKebab.TabIndex = 4;
-            this.StartPizzaMedKebab.Text = "Nils special";
-            this.StartPizzaMedKebab.UseVisualStyleBackColor = true;
-            this.StartPizzaMedKebab.MouseEnter += new System.EventHandler(this.StartPizzaMedKebab_MouseEnter);
-            this.StartPizzaMedKebab.MouseLeave += new System.EventHandler(this.StartPizzaMedKebab_MouseLeave);
+            this.startPizzaMedKebab.Location = new System.Drawing.Point(294, 492);
+            this.startPizzaMedKebab.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.startPizzaMedKebab.Name = "startPizzaMedKebab";
+            this.startPizzaMedKebab.Size = new System.Drawing.Size(117, 63);
+            this.startPizzaMedKebab.TabIndex = 4;
+            this.startPizzaMedKebab.Text = "Nils special";
+            this.startPizzaMedKebab.UseVisualStyleBackColor = true;
+            this.startPizzaMedKebab.MouseEnter += new System.EventHandler(this.StartPizzaMedKebab_MouseEnter);
+            this.startPizzaMedKebab.MouseLeave += new System.EventHandler(this.StartPizzaMedKebab_MouseLeave);
+            this.startPizzaMedKebab.MouseHover += new System.EventHandler(this.startPizzaMedKebab_MouseHover);
             // 
-            // StartSnake
+            // startSnake
             // 
-            this.StartSnake.Location = new System.Drawing.Point(39, 492);
-            this.StartSnake.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.StartSnake.Name = "StartSnake";
-            this.StartSnake.Size = new System.Drawing.Size(117, 63);
-            this.StartSnake.TabIndex = 3;
-            this.StartSnake.Text = "Snake";
-            this.StartSnake.UseVisualStyleBackColor = true;
-            this.StartSnake.MouseEnter += new System.EventHandler(this.StartSnake_MouseEnter);
-            this.StartSnake.MouseLeave += new System.EventHandler(this.StartSnake_MouseLeave);
+            this.startSnake.Location = new System.Drawing.Point(39, 492);
+            this.startSnake.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.startSnake.Name = "startSnake";
+            this.startSnake.Size = new System.Drawing.Size(117, 63);
+            this.startSnake.TabIndex = 3;
+            this.startSnake.Text = "Snake";
+            this.startSnake.UseVisualStyleBackColor = true;
+            this.startSnake.MouseEnter += new System.EventHandler(this.StartSnake_MouseEnter);
+            this.startSnake.MouseLeave += new System.EventHandler(this.StartSnake_MouseLeave);
+            this.startSnake.MouseHover += new System.EventHandler(this.startSnake_MouseHover);
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
@@ -100,13 +111,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(478, 645);
-            this.Controls.Add(this.StartPizzaMedKebab);
-            this.Controls.Add(this.StartSnake);
-            this.Controls.Add(this.Start3IRad);
+            this.Controls.Add(this.startPizzaMedKebab);
+            this.Controls.Add(this.startSnake);
+            this.Controls.Add(this.start3IRad);
             this.Controls.Add(this.nameOfTheGame);
             this.Controls.Add(this.start2DPlatformer);
             this.Name = "Form1";
             this.Text = "Start";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.MouseHover += new System.EventHandler(this.Form1_MouseHover);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -116,9 +129,10 @@
 
         private System.Windows.Forms.Button start2DPlatformer;
         private System.Windows.Forms.Label nameOfTheGame;
-        private System.Windows.Forms.Button Start3IRad;
-        private System.Windows.Forms.Button StartPizzaMedKebab;
-        private System.Windows.Forms.Button StartSnake;
+        private System.Windows.Forms.Button start3IRad;
+        private System.Windows.Forms.Button startPizzaMedKebab;
+        private System.Windows.Forms.Button startSnake;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

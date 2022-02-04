@@ -8,3 +8,4 @@ C:\Users\viktor.stromberg1\source\repos\GameProhect\GameProhect\obj\Debug\GamePr
 C:\Users\viktor.stromberg1\source\repos\GameProhect\GameProhect\obj\Debug\GameProject.csproj.CoreCompileInputs.cache
 C:\Users\viktor.stromberg1\source\repos\GameProhect\GameProhect\obj\Debug\GameProhect.exe
 C:\Users\viktor.stromberg1\source\repos\GameProhect\GameProhect\obj\Debug\GameProhect.pdb
+C:\Users\viktor.stromberg1\source\repos\GameProhect\GameProhect\obj\Debug\GameProhect.Form2.resources
