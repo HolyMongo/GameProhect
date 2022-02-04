@@ -40,6 +40,7 @@ namespace GameProhect
             this.c1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.reset = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // a1
@@ -137,11 +138,21 @@ namespace GameProhect
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(71, 109);
+            this.label2.Location = new System.Drawing.Point(70, 64);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 29);
+            this.label2.Size = new System.Drawing.Size(393, 29);
             this.label2.TabIndex = 10;
-            this.label2.Text = "Turn: ";
+            this.label2.Text = "pick a box where u want to place an X";
+            // 
+            // reset
+            // 
+            this.reset.Location = new System.Drawing.Point(328, 547);
+            this.reset.Name = "reset";
+            this.reset.Size = new System.Drawing.Size(120, 38);
+            this.reset.TabIndex = 11;
+            this.reset.Text = "reset";
+            this.reset.UseVisualStyleBackColor = true;
+            this.reset.Click += new System.EventHandler(this.reset_Click);
             // 
             // Form2
             // 
@@ -149,6 +160,7 @@ namespace GameProhect
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(538, 597);
+            this.Controls.Add(this.reset);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.c3);
@@ -162,6 +174,7 @@ namespace GameProhect
             this.Controls.Add(this.a1);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -180,5 +193,6 @@ namespace GameProhect
         private System.Windows.Forms.Button c1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button reset;
     }
 }

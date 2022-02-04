@@ -16,6 +16,11 @@ namespace GameProhect
         Random r = new Random();
         public int aiPlayer;
         int rounds = 0;
+        
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            label2.Location = new Point((this.Width / 2) - (label2.Width / 2), label2.Location.Y);
+        }
 
         public Form2()
         {
@@ -122,6 +127,12 @@ namespace GameProhect
         {
             while (true)
             {
+                CheckWin();
+                if (label2.Text == "You win!")
+                {
+                    break;
+                }
+                
                 if (rounds <= 7)
                 {
 
@@ -223,18 +234,40 @@ namespace GameProhect
                 {
                     break;
                 }
-
             }
+            CheckWin();
 
         }
 
 
         private void CheckWin()
         {
-            if (a1.Text == "X" && a2.Text == "X" && a3.Text == "X")
+            if (a1.Text == "X" && a2.Text == "X" && a3.Text == "X" || a1.Text == "X" && b2.Text == "X" && c3.Text == "X" || b1.Text == "X" && b2.Text == "X" && b3.Text == "X" || c1.Text == "X" && c2.Text == "X" && c3.Text == "X" || a1.Text == "X" && b1.Text == "X" && c1.Text == "X" || a2.Text == "X" && b2.Text == "X" && c2.Text == "X" || a3.Text == "X" && b3.Text == "X" && c3.Text == "X" || a3.Text == "X" && b2.Text == "X" && c1.Text == "X")
             {
-
+                label2.Text = "You win!";
             }
+            else if (a1.Text == "O" && a2.Text == "O" && a3.Text == "O" || a1.Text == "O" && b2.Text == "O" && c3.Text == "O" || b1.Text == "O" && b2.Text == "O" && b3.Text == "O" || c1.Text == "O" && c2.Text == "O" && c3.Text == "O" || a1.Text == "O" && b1.Text == "O" && c1.Text == "O" || a2.Text == "O" && b2.Text == "O" && c2.Text == "O" || a3.Text == "O" && b3.Text == "O" && c3.Text == "O" || a3.Text == "O" && b2.Text == "O" && c1.Text == "O")
+            {
+                label2.Text = "You lose!";
+            }
+            label2.Location = new Point((this.Width/2) - (label2.Width/2), label2.Location.Y);
         }
+
+        private void reset_Click(object sender, EventArgs e)
+        {
+            a1.Text = "";
+            a2.Text = "";
+            a3.Text = "";
+            b1.Text = "";
+            b2.Text = "";
+            b3.Text = "";
+            c1.Text = "";
+            c2.Text = "";
+            c3.Text = "";
+            label2.Text = "pick a box where u want to place an X";
+            rounds = 0;
+            label2.Location = new Point((this.Width / 2) - (label2.Width / 2), label2.Location.Y);
+        }
+
     }
 }
