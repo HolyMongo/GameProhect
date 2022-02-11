@@ -163,6 +163,14 @@ namespace GameProhect
                 }
             }
         }
+        private void start2DPlatformer_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form3 f3 = new Form3();
+            f3.ShowDialog();
+            this.Close();
+            
+        }
 
         private void start3IRad_Click(object sender, EventArgs e)
         {
@@ -171,5 +179,6 @@ namespace GameProhect
             f2.ShowDialog();
             this.Close();
         }
+
     }
 }

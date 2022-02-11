@@ -46,6 +46,7 @@
             this.start2DPlatformer.TabIndex = 0;
             this.start2DPlatformer.Text = "2D Platformer";
             this.start2DPlatformer.UseVisualStyleBackColor = true;
+            this.start2DPlatformer.Click += new System.EventHandler(this.start2DPlatformer_Click);
             this.start2DPlatformer.MouseEnter += new System.EventHandler(this.start2DPlatformer_MouseEnter);
             this.start2DPlatformer.MouseLeave += new System.EventHandler(this.start2DPlatformer_MouseLeave);
             this.start2DPlatformer.MouseHover += new System.EventHandler(this.start2DPlatformer_MouseHover);

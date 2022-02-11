@@ -16,10 +16,12 @@ namespace GameProhect
         Random r = new Random();
         public int aiPlayer;
         int rounds = 0;
+        bool isGameOver = false;
         
         private void Form2_Load(object sender, EventArgs e)
         {
             label2.Location = new Point((this.Width / 2) - (label2.Width / 2), label2.Location.Y);
+            
         }
 
         public Form2()
@@ -29,46 +31,56 @@ namespace GameProhect
 
         private void a1_Click(object sender, EventArgs e)
         {
-            if (a1.Text == "")
+            if (isGameOver == false)
             {
-                a1.Text = "X";
 
-                rounds++;
-                Ai();
+                if (a1.Text == "")
+                {
+                    a1.Text = "X";
+
+                    rounds++;
+                    Ai();
+                }
             }
         }
 
         private void a2_Click(object sender, EventArgs e)
         {
-            if (a2.Text == "")
+            if (isGameOver == false)
             {
-                a2.Text = "X";
-                rounds++;
-                Ai();
+                if (a2.Text == "")
+                {
+                    a2.Text = "X";
+                    rounds++;
+                    Ai();
+                }
             }
-            
         }
 
         private void a3_Click(object sender, EventArgs e)
         {
-            if (a3.Text == "")
+            if (isGameOver == false)
             {
-                a3.Text = "X";
-                rounds++;
-                Ai();
+                if (a3.Text == "")
+                {
+                    a3.Text = "X";
+                    rounds++;
+                    Ai();
+                }
             }
-            
         }
 
         private void b1_Click(object sender, EventArgs e)
         {
-            if (b1.Text == "")
+            if (isGameOver == false)
             {
-                b1.Text = "X";
-                rounds++;
-                Ai();
+                if (b1.Text == "")
+                {
+                    b1.Text = "X";
+                    rounds++;
+                    Ai();
+                }
             }
-         
         }
 
         private void b2_Click(object sender, EventArgs e)
@@ -83,44 +95,54 @@ namespace GameProhect
 
         private void b3_Click(object sender, EventArgs e)
         {
-            if (b3.Text == "")
+            if (isGameOver == false)
             {
-                b3.Text = "X";
-                rounds++;
-                Ai();
+                if (b3.Text == "")
+                {
+                    b3.Text = "X";
+                    rounds++;
+                    Ai();
+                }
             }
         }
 
         private void c1_Click(object sender, EventArgs e)
         {
-            if (c1.Text == "")
+            if (isGameOver == false)
             {
-                c1.Text = "X";
-                rounds++;
-                Ai();
+                if (c1.Text == "")
+                {
+                    c1.Text = "X";
+                    rounds++;
+                    Ai();
+                }
             }
-
         }
 
         private void c2_Click(object sender, EventArgs e)
         {
-            if (c2.Text == "")
+            if (isGameOver == false)
             {
-                c2.Text = "X";
-                rounds++;
-                Ai();
+                if (c2.Text == "")
+                {
+                    c2.Text = "X";
+                    rounds++;
+                    Ai();
+                }
             }
         }
 
         private void c3_Click(object sender, EventArgs e)
         {
-            if (c3.Text == "")
+            if (isGameOver == false)
             {
-                c3.Text = "X";
-                rounds++;
-                Ai();
+                if (c3.Text == "")
+                {
+                    c3.Text = "X";
+                    rounds++;
+                    Ai();
+                }
             }
-
         }
 
         private void Ai()
@@ -245,10 +267,12 @@ namespace GameProhect
             if (a1.Text == "X" && a2.Text == "X" && a3.Text == "X" || a1.Text == "X" && b2.Text == "X" && c3.Text == "X" || b1.Text == "X" && b2.Text == "X" && b3.Text == "X" || c1.Text == "X" && c2.Text == "X" && c3.Text == "X" || a1.Text == "X" && b1.Text == "X" && c1.Text == "X" || a2.Text == "X" && b2.Text == "X" && c2.Text == "X" || a3.Text == "X" && b3.Text == "X" && c3.Text == "X" || a3.Text == "X" && b2.Text == "X" && c1.Text == "X")
             {
                 label2.Text = "You win!";
+                isGameOver = true;
             }
             else if (a1.Text == "O" && a2.Text == "O" && a3.Text == "O" || a1.Text == "O" && b2.Text == "O" && c3.Text == "O" || b1.Text == "O" && b2.Text == "O" && b3.Text == "O" || c1.Text == "O" && c2.Text == "O" && c3.Text == "O" || a1.Text == "O" && b1.Text == "O" && c1.Text == "O" || a2.Text == "O" && b2.Text == "O" && c2.Text == "O" || a3.Text == "O" && b3.Text == "O" && c3.Text == "O" || a3.Text == "O" && b2.Text == "O" && c1.Text == "O")
             {
                 label2.Text = "You lose!";
+                isGameOver = true;
             }
             label2.Location = new Point((this.Width/2) - (label2.Width/2), label2.Location.Y);
         }
@@ -267,6 +291,7 @@ namespace GameProhect
             label2.Text = "pick a box where u want to place an X";
             rounds = 0;
             label2.Location = new Point((this.Width / 2) - (label2.Width / 2), label2.Location.Y);
+            isGameOver = false;
         }
 
     }

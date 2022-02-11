@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PlatformerWinForms
+namespace GameProhect
 {
     public partial class Form3 : Form
     {
@@ -26,6 +26,11 @@ namespace PlatformerWinForms
         int enemyTwoSpeed = 3;
 
 
+        private void Form3_Load(object sender, EventArgs e)
+        {
+            RestartGame();
+            this.Size = new Size(500, 760);
+        }
         public Form3()
         {
             InitializeComponent();
@@ -34,6 +39,7 @@ namespace PlatformerWinForms
         private void MainGameTimerEvent(object sender, EventArgs e)
         {
             txtScore.Text = "score: " + score;
+            score++;
 
             player.Top += jumpSpeed;
 
@@ -136,6 +142,11 @@ namespace PlatformerWinForms
                 isGameOver = true;
                 txtScore.Text = "Score: " + score + Environment.NewLine + "You fell to your death. Game Over";
             }
+            if (score > 100)
+            {
+                GameTimer.Stop();
+                isGameOver = true;
+            }
             //Player touches door and wins if they have more than 25 coins collected
             if (player.Bounds.IntersectsWith(Door.Bounds) && score == 25)
             {
@@ -149,6 +160,8 @@ namespace PlatformerWinForms
             }
 
         }
+
+
         //buttons move character
         private void KeyIsDown(object sender, KeyEventArgs e)
         {
@@ -164,6 +177,7 @@ namespace PlatformerWinForms
             {
                 Jumping = true;
             }
+            
         }
 
 
@@ -191,7 +205,6 @@ namespace PlatformerWinForms
         //resets game and everything
         private void RestartGame()
         {
-
             Jumping = false;
             goLeft = false;
             goRight = false;
@@ -199,6 +212,8 @@ namespace PlatformerWinForms
             score = 0;
 
             txtScore.Text = "score: " + score;
+
+            GameTimer.Start();
             // reset coins :)
             foreach (Control x in this.Controls)
             {
@@ -219,7 +234,6 @@ namespace PlatformerWinForms
             horizontalPlatform.Left = 265;
             verticalPlatform.Top = 460;
 
-            GameTimer.Start();
 
 
         }

@@ -1,4 +1,4 @@
-﻿namespace PlatformerWinForms
+﻿namespace GameProhect
 {
     partial class Form3
     {
@@ -112,9 +112,10 @@
             // pictureBox9
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox9.Location = new System.Drawing.Point(573, 582);
+            this.pictureBox9.Location = new System.Drawing.Point(645, 728);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox9.Size = new System.Drawing.Size(28, 31);
             this.pictureBox9.TabIndex = 74;
             this.pictureBox9.TabStop = false;
             this.pictureBox9.Tag = "coin";
@@ -122,9 +123,10 @@
             // pictureBox7
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox7.Location = new System.Drawing.Point(530, 582);
+            this.pictureBox7.Location = new System.Drawing.Point(596, 728);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox7.Size = new System.Drawing.Size(28, 31);
             this.pictureBox7.TabIndex = 73;
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Tag = "coin";
@@ -132,9 +134,10 @@
             // pictureBox32
             // 
             this.pictureBox32.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox32.Location = new System.Drawing.Point(263, 495);
+            this.pictureBox32.Location = new System.Drawing.Point(296, 619);
+            this.pictureBox32.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox32.Name = "pictureBox32";
-            this.pictureBox32.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox32.Size = new System.Drawing.Size(28, 31);
             this.pictureBox32.TabIndex = 70;
             this.pictureBox32.TabStop = false;
             this.pictureBox32.Tag = "coin";
@@ -142,9 +145,10 @@
             // pictureBox33
             // 
             this.pictureBox33.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox33.Location = new System.Drawing.Point(304, 495);
+            this.pictureBox33.Location = new System.Drawing.Point(342, 619);
+            this.pictureBox33.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox33.Name = "pictureBox33";
-            this.pictureBox33.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox33.Size = new System.Drawing.Size(28, 31);
             this.pictureBox33.TabIndex = 71;
             this.pictureBox33.TabStop = false;
             this.pictureBox33.Tag = "coin";
@@ -152,9 +156,10 @@
             // pictureBox34
             // 
             this.pictureBox34.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox34.Location = new System.Drawing.Point(223, 496);
+            this.pictureBox34.Location = new System.Drawing.Point(251, 620);
+            this.pictureBox34.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox34.Name = "pictureBox34";
-            this.pictureBox34.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox34.Size = new System.Drawing.Size(28, 31);
             this.pictureBox34.TabIndex = 72;
             this.pictureBox34.TabStop = false;
             this.pictureBox34.Tag = "coin";
@@ -162,9 +167,10 @@
             // pictureBox29
             // 
             this.pictureBox29.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox29.Location = new System.Drawing.Point(441, 582);
+            this.pictureBox29.Location = new System.Drawing.Point(496, 728);
+            this.pictureBox29.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox29.Size = new System.Drawing.Size(28, 31);
             this.pictureBox29.TabIndex = 67;
             this.pictureBox29.TabStop = false;
             this.pictureBox29.Tag = "coin";
@@ -172,9 +178,10 @@
             // pictureBox30
             // 
             this.pictureBox30.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox30.Location = new System.Drawing.Point(482, 582);
+            this.pictureBox30.Location = new System.Drawing.Point(542, 728);
+            this.pictureBox30.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox30.Size = new System.Drawing.Size(28, 31);
             this.pictureBox30.TabIndex = 68;
             this.pictureBox30.TabStop = false;
             this.pictureBox30.Tag = "coin";
@@ -182,9 +189,10 @@
             // pictureBox31
             // 
             this.pictureBox31.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox31.Location = new System.Drawing.Point(401, 583);
+            this.pictureBox31.Location = new System.Drawing.Point(451, 729);
+            this.pictureBox31.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox31.Size = new System.Drawing.Size(28, 31);
             this.pictureBox31.TabIndex = 69;
             this.pictureBox31.TabStop = false;
             this.pictureBox31.Tag = "coin";
@@ -192,9 +200,10 @@
             // pictureBox26
             // 
             this.pictureBox26.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox26.Location = new System.Drawing.Point(104, 407);
+            this.pictureBox26.Location = new System.Drawing.Point(117, 509);
+            this.pictureBox26.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox26.Size = new System.Drawing.Size(28, 31);
             this.pictureBox26.TabIndex = 64;
             this.pictureBox26.TabStop = false;
             this.pictureBox26.Tag = "coin";
@@ -202,9 +211,10 @@
             // pictureBox27
             // 
             this.pictureBox27.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox27.Location = new System.Drawing.Point(145, 407);
+            this.pictureBox27.Location = new System.Drawing.Point(163, 509);
+            this.pictureBox27.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox27.Size = new System.Drawing.Size(28, 31);
             this.pictureBox27.TabIndex = 65;
             this.pictureBox27.TabStop = false;
             this.pictureBox27.Tag = "coin";
@@ -212,9 +222,10 @@
             // pictureBox23
             // 
             this.pictureBox23.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox23.Location = new System.Drawing.Point(113, 192);
+            this.pictureBox23.Location = new System.Drawing.Point(127, 240);
+            this.pictureBox23.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox23.Size = new System.Drawing.Size(28, 31);
             this.pictureBox23.TabIndex = 61;
             this.pictureBox23.TabStop = false;
             this.pictureBox23.Tag = "coin";
@@ -222,9 +233,10 @@
             // pictureBox24
             // 
             this.pictureBox24.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox24.Location = new System.Drawing.Point(154, 192);
+            this.pictureBox24.Location = new System.Drawing.Point(173, 240);
+            this.pictureBox24.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox24.Size = new System.Drawing.Size(28, 31);
             this.pictureBox24.TabIndex = 62;
             this.pictureBox24.TabStop = false;
             this.pictureBox24.Tag = "coin";
@@ -232,9 +244,10 @@
             // pictureBox25
             // 
             this.pictureBox25.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox25.Location = new System.Drawing.Point(73, 193);
+            this.pictureBox25.Location = new System.Drawing.Point(82, 241);
+            this.pictureBox25.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox25.Size = new System.Drawing.Size(28, 31);
             this.pictureBox25.TabIndex = 63;
             this.pictureBox25.TabStop = false;
             this.pictureBox25.Tag = "coin";
@@ -242,9 +255,10 @@
             // pictureBox20
             // 
             this.pictureBox20.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox20.Location = new System.Drawing.Point(410, 306);
+            this.pictureBox20.Location = new System.Drawing.Point(461, 382);
+            this.pictureBox20.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox20.Size = new System.Drawing.Size(28, 31);
             this.pictureBox20.TabIndex = 58;
             this.pictureBox20.TabStop = false;
             this.pictureBox20.Tag = "coin";
@@ -252,9 +266,10 @@
             // pictureBox21
             // 
             this.pictureBox21.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox21.Location = new System.Drawing.Point(451, 306);
+            this.pictureBox21.Location = new System.Drawing.Point(507, 382);
+            this.pictureBox21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox21.Size = new System.Drawing.Size(28, 31);
             this.pictureBox21.TabIndex = 59;
             this.pictureBox21.TabStop = false;
             this.pictureBox21.Tag = "coin";
@@ -262,9 +277,10 @@
             // pictureBox22
             // 
             this.pictureBox22.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox22.Location = new System.Drawing.Point(370, 307);
+            this.pictureBox22.Location = new System.Drawing.Point(416, 384);
+            this.pictureBox22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox22.Size = new System.Drawing.Size(28, 31);
             this.pictureBox22.TabIndex = 60;
             this.pictureBox22.TabStop = false;
             this.pictureBox22.Tag = "coin";
@@ -273,13 +289,15 @@
             // 
             this.GameTimer.Enabled = true;
             this.GameTimer.Interval = 20;
+            this.GameTimer.Tick += new System.EventHandler(this.MainGameTimerEvent);
             // 
             // pictureBox28
             // 
             this.pictureBox28.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox28.Location = new System.Drawing.Point(64, 408);
+            this.pictureBox28.Location = new System.Drawing.Point(72, 510);
+            this.pictureBox28.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox28.Size = new System.Drawing.Size(28, 31);
             this.pictureBox28.TabIndex = 66;
             this.pictureBox28.TabStop = false;
             this.pictureBox28.Tag = "coin";
@@ -287,9 +305,10 @@
             // pictureBox17
             // 
             this.pictureBox17.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox17.Location = new System.Drawing.Point(290, 306);
+            this.pictureBox17.Location = new System.Drawing.Point(326, 382);
+            this.pictureBox17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox17.Size = new System.Drawing.Size(28, 31);
             this.pictureBox17.TabIndex = 55;
             this.pictureBox17.TabStop = false;
             this.pictureBox17.Tag = "coin";
@@ -297,9 +316,10 @@
             // pictureBox18
             // 
             this.pictureBox18.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox18.Location = new System.Drawing.Point(331, 306);
+            this.pictureBox18.Location = new System.Drawing.Point(372, 382);
+            this.pictureBox18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox18.Size = new System.Drawing.Size(28, 31);
             this.pictureBox18.TabIndex = 56;
             this.pictureBox18.TabStop = false;
             this.pictureBox18.Tag = "coin";
@@ -307,9 +327,10 @@
             // pictureBox19
             // 
             this.pictureBox19.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox19.Location = new System.Drawing.Point(250, 307);
+            this.pictureBox19.Location = new System.Drawing.Point(281, 384);
+            this.pictureBox19.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox19.Size = new System.Drawing.Size(28, 31);
             this.pictureBox19.TabIndex = 57;
             this.pictureBox19.TabStop = false;
             this.pictureBox19.Tag = "coin";
@@ -317,9 +338,10 @@
             // pictureBox16
             // 
             this.pictureBox16.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox16.Location = new System.Drawing.Point(344, 89);
+            this.pictureBox16.Location = new System.Drawing.Point(387, 111);
+            this.pictureBox16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox16.Size = new System.Drawing.Size(28, 31);
             this.pictureBox16.TabIndex = 54;
             this.pictureBox16.TabStop = false;
             this.pictureBox16.Tag = "coin";
@@ -327,9 +349,10 @@
             // pictureBox15
             // 
             this.pictureBox15.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox15.Location = new System.Drawing.Point(385, 89);
+            this.pictureBox15.Location = new System.Drawing.Point(433, 111);
+            this.pictureBox15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox15.Size = new System.Drawing.Size(28, 31);
             this.pictureBox15.TabIndex = 53;
             this.pictureBox15.TabStop = false;
             this.pictureBox15.Tag = "coin";
@@ -337,9 +360,10 @@
             // pictureBox14
             // 
             this.pictureBox14.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox14.Location = new System.Drawing.Point(304, 90);
+            this.pictureBox14.Location = new System.Drawing.Point(342, 112);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox14.Size = new System.Drawing.Size(28, 31);
             this.pictureBox14.TabIndex = 52;
             this.pictureBox14.TabStop = false;
             this.pictureBox14.Tag = "coin";
@@ -347,9 +371,10 @@
             // pictureBox13
             // 
             this.pictureBox13.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox13.Location = new System.Drawing.Point(32, 192);
+            this.pictureBox13.Location = new System.Drawing.Point(36, 240);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox13.Size = new System.Drawing.Size(28, 31);
             this.pictureBox13.TabIndex = 51;
             this.pictureBox13.TabStop = false;
             this.pictureBox13.Tag = "coin";
@@ -357,9 +382,10 @@
             // pictureBox12
             // 
             this.pictureBox12.BackColor = System.Drawing.Color.Goldenrod;
-            this.pictureBox12.Location = new System.Drawing.Point(261, 90);
+            this.pictureBox12.Location = new System.Drawing.Point(294, 112);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox12.Size = new System.Drawing.Size(28, 31);
             this.pictureBox12.TabIndex = 50;
             this.pictureBox12.TabStop = false;
             this.pictureBox12.Tag = "coin";
@@ -367,9 +393,10 @@
             // enemyTwo
             // 
             this.enemyTwo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.enemyTwo.Location = new System.Drawing.Point(410, 583);
+            this.enemyTwo.Location = new System.Drawing.Point(461, 729);
+            this.enemyTwo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.enemyTwo.Name = "enemyTwo";
-            this.enemyTwo.Size = new System.Drawing.Size(30, 40);
+            this.enemyTwo.Size = new System.Drawing.Size(34, 50);
             this.enemyTwo.TabIndex = 49;
             this.enemyTwo.TabStop = false;
             this.enemyTwo.Tag = "enemy";
@@ -377,9 +404,10 @@
             // enemyOne
             // 
             this.enemyOne.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.enemyOne.Location = new System.Drawing.Point(441, 307);
+            this.enemyOne.Location = new System.Drawing.Point(496, 384);
+            this.enemyOne.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.enemyOne.Name = "enemyOne";
-            this.enemyOne.Size = new System.Drawing.Size(30, 40);
+            this.enemyOne.Size = new System.Drawing.Size(34, 50);
             this.enemyOne.TabIndex = 48;
             this.enemyOne.TabStop = false;
             this.enemyOne.Tag = "enemy";
@@ -387,27 +415,30 @@
             // Door
             // 
             this.Door.BackColor = System.Drawing.Color.DarkGreen;
-            this.Door.Location = new System.Drawing.Point(7, 3);
+            this.Door.Location = new System.Drawing.Point(8, 4);
+            this.Door.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Door.Name = "Door";
-            this.Door.Size = new System.Drawing.Size(60, 66);
+            this.Door.Size = new System.Drawing.Size(68, 82);
             this.Door.TabIndex = 47;
             this.Door.TabStop = false;
             // 
             // player
             // 
             this.player.BackColor = System.Drawing.Color.DarkBlue;
-            this.player.Location = new System.Drawing.Point(99, 525);
+            this.player.Location = new System.Drawing.Point(111, 656);
+            this.player.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.player.Name = "player";
-            this.player.Size = new System.Drawing.Size(30, 40);
+            this.player.Size = new System.Drawing.Size(34, 50);
             this.player.TabIndex = 46;
             this.player.TabStop = false;
             // 
             // verticalPlatform
             // 
             this.verticalPlatform.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.verticalPlatform.Location = new System.Drawing.Point(540, 495);
+            this.verticalPlatform.Location = new System.Drawing.Point(608, 619);
+            this.verticalPlatform.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.verticalPlatform.Name = "verticalPlatform";
-            this.verticalPlatform.Size = new System.Drawing.Size(106, 30);
+            this.verticalPlatform.Size = new System.Drawing.Size(119, 38);
             this.verticalPlatform.TabIndex = 45;
             this.verticalPlatform.TabStop = false;
             this.verticalPlatform.Tag = "platform";
@@ -415,9 +446,10 @@
             // pictureBox8
             // 
             this.pictureBox8.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox8.Location = new System.Drawing.Point(7, 65);
+            this.pictureBox8.Location = new System.Drawing.Point(8, 81);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(183, 30);
+            this.pictureBox8.Size = new System.Drawing.Size(206, 38);
             this.pictureBox8.TabIndex = 44;
             this.pictureBox8.TabStop = false;
             this.pictureBox8.Tag = "platform";
@@ -425,9 +457,10 @@
             // horizontalPlatform
             // 
             this.horizontalPlatform.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.horizontalPlatform.Location = new System.Drawing.Point(261, 136);
+            this.horizontalPlatform.Location = new System.Drawing.Point(294, 170);
+            this.horizontalPlatform.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.horizontalPlatform.Name = "horizontalPlatform";
-            this.horizontalPlatform.Size = new System.Drawing.Size(222, 30);
+            this.horizontalPlatform.Size = new System.Drawing.Size(250, 38);
             this.horizontalPlatform.TabIndex = 43;
             this.horizontalPlatform.TabStop = false;
             this.horizontalPlatform.Tag = "platform";
@@ -435,9 +468,10 @@
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox6.Location = new System.Drawing.Point(26, 238);
+            this.pictureBox6.Location = new System.Drawing.Point(29, 298);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(164, 30);
+            this.pictureBox6.Size = new System.Drawing.Size(184, 38);
             this.pictureBox6.TabIndex = 42;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Tag = "platform";
@@ -445,9 +479,10 @@
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox5.Location = new System.Drawing.Point(236, 351);
+            this.pictureBox5.Location = new System.Drawing.Point(266, 439);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(247, 30);
+            this.pictureBox5.Size = new System.Drawing.Size(278, 38);
             this.pictureBox5.TabIndex = 41;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Tag = "platform";
@@ -455,9 +490,10 @@
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox4.Location = new System.Drawing.Point(32, 447);
+            this.pictureBox4.Location = new System.Drawing.Point(36, 559);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(158, 30);
+            this.pictureBox4.Size = new System.Drawing.Size(178, 38);
             this.pictureBox4.TabIndex = 40;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Tag = "platform";
@@ -465,9 +501,10 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox3.Location = new System.Drawing.Point(193, 535);
+            this.pictureBox3.Location = new System.Drawing.Point(217, 669);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(158, 30);
+            this.pictureBox3.Size = new System.Drawing.Size(178, 38);
             this.pictureBox3.TabIndex = 39;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Tag = "platform";
@@ -475,9 +512,10 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox2.Location = new System.Drawing.Point(358, 624);
+            this.pictureBox2.Location = new System.Drawing.Point(403, 780);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(259, 30);
+            this.pictureBox2.Size = new System.Drawing.Size(291, 38);
             this.pictureBox2.TabIndex = 38;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Tag = "platform";
@@ -485,9 +523,10 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox1.Location = new System.Drawing.Point(7, 691);
+            this.pictureBox1.Location = new System.Drawing.Point(8, 864);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(344, 30);
+            this.pictureBox1.Size = new System.Drawing.Size(387, 38);
             this.pictureBox1.TabIndex = 37;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Tag = "platform";
@@ -495,19 +534,19 @@
             // txtScore
             // 
             this.txtScore.Font = new System.Drawing.Font("Consolas", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtScore.Location = new System.Drawing.Point(354, 3);
+            this.txtScore.Location = new System.Drawing.Point(398, 4);
             this.txtScore.Name = "txtScore";
-            this.txtScore.Size = new System.Drawing.Size(282, 111);
+            this.txtScore.Size = new System.Drawing.Size(317, 139);
             this.txtScore.TabIndex = 36;
             this.txtScore.Text = "Score: 0";
             this.txtScore.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // Form3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(658, 728);
+            this.ClientSize = new System.Drawing.Size(740, 910);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox32);
@@ -547,8 +586,10 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtScore);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form3";
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
