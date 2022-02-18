@@ -30,6 +30,16 @@ namespace GameProhect
         {
             RestartGame();
             this.Size = new Size(500, 760);
+            foreach (Control x in Controls)
+            {
+                if (x is PictureBox)
+                {
+                    if ((string)x.Tag == "coin")
+                    {
+                        x.Size = new Size(50, 50);
+                    }
+                }
+            }
         }
         public Form3()
         {
@@ -39,8 +49,8 @@ namespace GameProhect
         private void MainGameTimerEvent(object sender, EventArgs e)
         {
             txtScore.Text = "score: " + score;
-            score++;
 
+           
             player.Top += jumpSpeed;
 
             if (goLeft == true)
@@ -142,22 +152,19 @@ namespace GameProhect
                 isGameOver = true;
                 txtScore.Text = "Score: " + score + Environment.NewLine + "You fell to your death. Game Over";
             }
-            if (score > 100)
-            {
-                GameTimer.Stop();
-                isGameOver = true;
-            }
+          
             //Player touches door and wins if they have more than 25 coins collected
-            if (player.Bounds.IntersectsWith(Door.Bounds) && score == 25)
+            if (player.Bounds.IntersectsWith(Door.Bounds))
             {
+                if (score == 25)
+                {
+
                 GameTimer.Stop();
                 isGameOver = true;
                 txtScore.Text = "Score: " + score + Environment.NewLine + "Your adventure is over. YOU WIN";
+                }
             }
-            else
-            {
-                txtScore.Text = "Score: " + score + Environment.NewLine + "Collect all 25 coins and Open the door!";
-            }
+          
 
         }
 
@@ -205,13 +212,13 @@ namespace GameProhect
         //resets game and everything
         private void RestartGame()
         {
-            Jumping = false;
+            Jumping = true;
             goLeft = false;
             goRight = false;
             isGameOver = false;
             score = 0;
 
-            txtScore.Text = "score: " + score;
+            txtScore.Text = "Score: " + score + Environment.NewLine + "Collect all 25 coins and Open the door!";
 
             GameTimer.Start();
             // reset coins :)

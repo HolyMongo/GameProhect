@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox32 = new System.Windows.Forms.PictureBox();
@@ -111,18 +112,21 @@
             // 
             // pictureBox9
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
             this.pictureBox9.Location = new System.Drawing.Point(645, 728);
             this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(28, 31);
+            this.pictureBox9.Size = new System.Drawing.Size(29, 31);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox9.TabIndex = 74;
             this.pictureBox9.TabStop = false;
             this.pictureBox9.Tag = "coin";
             // 
             // pictureBox7
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(596, 728);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox7.Name = "pictureBox7";
@@ -133,7 +137,8 @@
             // 
             // pictureBox32
             // 
-            this.pictureBox32.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox32.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox32.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox32.Image")));
             this.pictureBox32.Location = new System.Drawing.Point(296, 619);
             this.pictureBox32.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox32.Name = "pictureBox32";
@@ -144,7 +149,8 @@
             // 
             // pictureBox33
             // 
-            this.pictureBox33.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox33.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox33.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox33.Image")));
             this.pictureBox33.Location = new System.Drawing.Point(342, 619);
             this.pictureBox33.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox33.Name = "pictureBox33";
@@ -155,7 +161,8 @@
             // 
             // pictureBox34
             // 
-            this.pictureBox34.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox34.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox34.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox34.Image")));
             this.pictureBox34.Location = new System.Drawing.Point(251, 620);
             this.pictureBox34.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox34.Name = "pictureBox34";
@@ -166,7 +173,8 @@
             // 
             // pictureBox29
             // 
-            this.pictureBox29.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox29.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox29.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox29.Image")));
             this.pictureBox29.Location = new System.Drawing.Point(496, 728);
             this.pictureBox29.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox29.Name = "pictureBox29";
@@ -177,7 +185,8 @@
             // 
             // pictureBox30
             // 
-            this.pictureBox30.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox30.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox30.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox30.Image")));
             this.pictureBox30.Location = new System.Drawing.Point(542, 728);
             this.pictureBox30.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox30.Name = "pictureBox30";
@@ -188,7 +197,8 @@
             // 
             // pictureBox31
             // 
-            this.pictureBox31.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox31.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox31.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox31.Image")));
             this.pictureBox31.Location = new System.Drawing.Point(451, 729);
             this.pictureBox31.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox31.Name = "pictureBox31";
@@ -199,7 +209,8 @@
             // 
             // pictureBox26
             // 
-            this.pictureBox26.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox26.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox26.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox26.Image")));
             this.pictureBox26.Location = new System.Drawing.Point(117, 509);
             this.pictureBox26.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox26.Name = "pictureBox26";
@@ -210,7 +221,8 @@
             // 
             // pictureBox27
             // 
-            this.pictureBox27.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox27.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox27.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox27.Image")));
             this.pictureBox27.Location = new System.Drawing.Point(163, 509);
             this.pictureBox27.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox27.Name = "pictureBox27";
@@ -221,7 +233,8 @@
             // 
             // pictureBox23
             // 
-            this.pictureBox23.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox23.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
             this.pictureBox23.Location = new System.Drawing.Point(127, 240);
             this.pictureBox23.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox23.Name = "pictureBox23";
@@ -232,7 +245,8 @@
             // 
             // pictureBox24
             // 
-            this.pictureBox24.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox24.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
             this.pictureBox24.Location = new System.Drawing.Point(173, 240);
             this.pictureBox24.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox24.Name = "pictureBox24";
@@ -243,7 +257,8 @@
             // 
             // pictureBox25
             // 
-            this.pictureBox25.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox25.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
             this.pictureBox25.Location = new System.Drawing.Point(82, 241);
             this.pictureBox25.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox25.Name = "pictureBox25";
@@ -254,7 +269,8 @@
             // 
             // pictureBox20
             // 
-            this.pictureBox20.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox20.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
             this.pictureBox20.Location = new System.Drawing.Point(461, 382);
             this.pictureBox20.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox20.Name = "pictureBox20";
@@ -265,7 +281,8 @@
             // 
             // pictureBox21
             // 
-            this.pictureBox21.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox21.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
             this.pictureBox21.Location = new System.Drawing.Point(507, 382);
             this.pictureBox21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox21.Name = "pictureBox21";
@@ -276,7 +293,8 @@
             // 
             // pictureBox22
             // 
-            this.pictureBox22.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox22.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
             this.pictureBox22.Location = new System.Drawing.Point(416, 384);
             this.pictureBox22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox22.Name = "pictureBox22";
@@ -293,7 +311,8 @@
             // 
             // pictureBox28
             // 
-            this.pictureBox28.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox28.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox28.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox28.Image")));
             this.pictureBox28.Location = new System.Drawing.Point(72, 510);
             this.pictureBox28.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox28.Name = "pictureBox28";
@@ -304,7 +323,8 @@
             // 
             // pictureBox17
             // 
-            this.pictureBox17.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox17.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
             this.pictureBox17.Location = new System.Drawing.Point(326, 382);
             this.pictureBox17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox17.Name = "pictureBox17";
@@ -315,7 +335,8 @@
             // 
             // pictureBox18
             // 
-            this.pictureBox18.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox18.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
             this.pictureBox18.Location = new System.Drawing.Point(372, 382);
             this.pictureBox18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox18.Name = "pictureBox18";
@@ -326,7 +347,8 @@
             // 
             // pictureBox19
             // 
-            this.pictureBox19.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox19.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
             this.pictureBox19.Location = new System.Drawing.Point(281, 384);
             this.pictureBox19.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox19.Name = "pictureBox19";
@@ -337,7 +359,8 @@
             // 
             // pictureBox16
             // 
-            this.pictureBox16.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox16.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
             this.pictureBox16.Location = new System.Drawing.Point(387, 111);
             this.pictureBox16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox16.Name = "pictureBox16";
@@ -348,7 +371,8 @@
             // 
             // pictureBox15
             // 
-            this.pictureBox15.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox15.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
             this.pictureBox15.Location = new System.Drawing.Point(433, 111);
             this.pictureBox15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox15.Name = "pictureBox15";
@@ -359,7 +383,8 @@
             // 
             // pictureBox14
             // 
-            this.pictureBox14.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox14.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
             this.pictureBox14.Location = new System.Drawing.Point(342, 112);
             this.pictureBox14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox14.Name = "pictureBox14";
@@ -370,7 +395,8 @@
             // 
             // pictureBox13
             // 
-            this.pictureBox13.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox13.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
             this.pictureBox13.Location = new System.Drawing.Point(36, 240);
             this.pictureBox13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox13.Name = "pictureBox13";
@@ -381,7 +407,8 @@
             // 
             // pictureBox12
             // 
-            this.pictureBox12.BackColor = System.Drawing.Color.Goldenrod;
+            this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
             this.pictureBox12.Location = new System.Drawing.Point(294, 112);
             this.pictureBox12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox12.Name = "pictureBox12";
@@ -392,43 +419,51 @@
             // 
             // enemyTwo
             // 
-            this.enemyTwo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.enemyTwo.Location = new System.Drawing.Point(461, 729);
+            this.enemyTwo.BackColor = System.Drawing.Color.Transparent;
+            this.enemyTwo.Image = ((System.Drawing.Image)(resources.GetObject("enemyTwo.Image")));
+            this.enemyTwo.Location = new System.Drawing.Point(644, 729);
             this.enemyTwo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.enemyTwo.Name = "enemyTwo";
-            this.enemyTwo.Size = new System.Drawing.Size(34, 50);
+            this.enemyTwo.Size = new System.Drawing.Size(50, 50);
+            this.enemyTwo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.enemyTwo.TabIndex = 49;
             this.enemyTwo.TabStop = false;
             this.enemyTwo.Tag = "enemy";
             // 
             // enemyOne
             // 
-            this.enemyOne.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.enemyOne.Location = new System.Drawing.Point(496, 384);
+            this.enemyOne.BackColor = System.Drawing.Color.Transparent;
+            this.enemyOne.Image = ((System.Drawing.Image)(resources.GetObject("enemyOne.Image")));
+            this.enemyOne.Location = new System.Drawing.Point(494, 384);
             this.enemyOne.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.enemyOne.Name = "enemyOne";
-            this.enemyOne.Size = new System.Drawing.Size(34, 50);
+            this.enemyOne.Size = new System.Drawing.Size(50, 50);
+            this.enemyOne.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.enemyOne.TabIndex = 48;
             this.enemyOne.TabStop = false;
             this.enemyOne.Tag = "enemy";
             // 
             // Door
             // 
-            this.Door.BackColor = System.Drawing.Color.DarkGreen;
+            this.Door.BackColor = System.Drawing.Color.Transparent;
+            this.Door.Image = ((System.Drawing.Image)(resources.GetObject("Door.Image")));
             this.Door.Location = new System.Drawing.Point(8, 4);
             this.Door.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Door.Name = "Door";
             this.Door.Size = new System.Drawing.Size(68, 82);
+            this.Door.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.Door.TabIndex = 47;
             this.Door.TabStop = false;
             // 
             // player
             // 
-            this.player.BackColor = System.Drawing.Color.DarkBlue;
+            this.player.BackColor = System.Drawing.Color.Transparent;
+            this.player.Image = ((System.Drawing.Image)(resources.GetObject("player.Image")));
             this.player.Location = new System.Drawing.Point(111, 656);
             this.player.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.player.Name = "player";
-            this.player.Size = new System.Drawing.Size(34, 50);
+            this.player.Size = new System.Drawing.Size(29, 31);
+            this.player.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.player.TabIndex = 46;
             this.player.TabStop = false;
             // 
@@ -479,7 +514,7 @@
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.pictureBox5.Location = new System.Drawing.Point(266, 439);
+            this.pictureBox5.Location = new System.Drawing.Point(266, 433);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(278, 38);
@@ -545,8 +580,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(740, 910);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(200)))), ((int)(((byte)(205)))));
+            this.ClientSize = new System.Drawing.Size(741, 910);
+            this.Controls.Add(this.enemyTwo);
+            this.Controls.Add(this.enemyOne);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox32);
@@ -572,8 +609,6 @@
             this.Controls.Add(this.pictureBox14);
             this.Controls.Add(this.pictureBox13);
             this.Controls.Add(this.pictureBox12);
-            this.Controls.Add(this.enemyTwo);
-            this.Controls.Add(this.enemyOne);
             this.Controls.Add(this.Door);
             this.Controls.Add(this.player);
             this.Controls.Add(this.verticalPlatform);
@@ -590,6 +625,8 @@
             this.Name = "Form3";
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyIsDown);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.KeyIsUp);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
@@ -629,6 +666,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
