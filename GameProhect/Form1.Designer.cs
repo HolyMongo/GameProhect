@@ -33,7 +33,7 @@
             this.nameOfTheGame = new System.Windows.Forms.Label();
             this.start3IRad = new System.Windows.Forms.Button();
             this.startPizzaMedKebab = new System.Windows.Forms.Button();
-            this.startSnake = new System.Windows.Forms.Button();
+            this.startNotPokemon = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
@@ -89,18 +89,19 @@
             this.startPizzaMedKebab.MouseLeave += new System.EventHandler(this.StartPizzaMedKebab_MouseLeave);
             this.startPizzaMedKebab.MouseHover += new System.EventHandler(this.startPizzaMedKebab_MouseHover);
             // 
-            // startSnake
+            // startNotPokemon
             // 
-            this.startSnake.Location = new System.Drawing.Point(39, 492);
-            this.startSnake.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.startSnake.Name = "startSnake";
-            this.startSnake.Size = new System.Drawing.Size(117, 63);
-            this.startSnake.TabIndex = 3;
-            this.startSnake.Text = "Snake";
-            this.startSnake.UseVisualStyleBackColor = true;
-            this.startSnake.MouseEnter += new System.EventHandler(this.StartSnake_MouseEnter);
-            this.startSnake.MouseLeave += new System.EventHandler(this.StartSnake_MouseLeave);
-            this.startSnake.MouseHover += new System.EventHandler(this.startSnake_MouseHover);
+            this.startNotPokemon.Location = new System.Drawing.Point(39, 492);
+            this.startNotPokemon.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.startNotPokemon.Name = "startNotPokemon";
+            this.startNotPokemon.Size = new System.Drawing.Size(117, 63);
+            this.startNotPokemon.TabIndex = 3;
+            this.startNotPokemon.Text = "Not Pokémon";
+            this.startNotPokemon.UseVisualStyleBackColor = true;
+            this.startNotPokemon.Click += new System.EventHandler(this.startNotPokemon_Click);
+            this.startNotPokemon.MouseEnter += new System.EventHandler(this.startNotPokemon_MouseHover);
+            this.startNotPokemon.MouseLeave += new System.EventHandler(this.StartSnake_MouseLeave);
+            this.startNotPokemon.MouseHover += new System.EventHandler(this.startNotPokemon_MouseHover);
             // 
             // timer1
             // 
@@ -113,7 +114,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(478, 645);
             this.Controls.Add(this.startPizzaMedKebab);
-            this.Controls.Add(this.startSnake);
+            this.Controls.Add(this.startNotPokemon);
             this.Controls.Add(this.start3IRad);
             this.Controls.Add(this.nameOfTheGame);
             this.Controls.Add(this.start2DPlatformer);
@@ -132,7 +133,7 @@
         private System.Windows.Forms.Label nameOfTheGame;
         private System.Windows.Forms.Button start3IRad;
         private System.Windows.Forms.Button startPizzaMedKebab;
-        private System.Windows.Forms.Button startSnake;
+        private System.Windows.Forms.Button startNotPokemon;
         private System.Windows.Forms.Timer timer1;
     }
 }

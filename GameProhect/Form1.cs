@@ -46,7 +46,7 @@ namespace GameProhect
             nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
             start3IRad.Location = new Point((this.Width / 2) - (start3IRad.Width / 2) + 80, start3IRad.Location.Y);
             start2DPlatformer.Location = new Point((this.Width / 2) - (start2DPlatformer.Width / 2) - 80, start2DPlatformer.Location.Y);
-            startSnake.Location = new Point((this.Width / 2) - (startSnake.Width / 2) + 80, startSnake.Location.Y);
+            startNotPokemon.Location = new Point((this.Width / 2) - (startNotPokemon.Width / 2) + 80, startNotPokemon.Location.Y);
             startPizzaMedKebab.Location = new Point((this.Width / 2) - (startPizzaMedKebab.Width / 2) - 80, startPizzaMedKebab.Location.Y);
             nameOfTheGame.BackColor = Color.Transparent;
             timer1.Start();
@@ -74,11 +74,6 @@ namespace GameProhect
         private void Start3IRad_MouseEnter(object sender, EventArgs e)
         {
            
-        }
-
-        private void StartSnake_MouseEnter(object sender, EventArgs e)
-        {
-          
         }
 
         private void Start3IRad_MouseLeave(object sender, EventArgs e)
@@ -125,12 +120,7 @@ namespace GameProhect
             nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
         }
 
-        private void startSnake_MouseHover(object sender, EventArgs e)
-        {
-            nameOfTheGame.Text = "Snake";
-            BackColor = Color.FromArgb(0, 0, 200);
-            nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
-        }
+       
 
         private void startPizzaMedKebab_MouseHover(object sender, EventArgs e)
         {
@@ -180,5 +170,21 @@ namespace GameProhect
             this.Close();
         }
 
+       
+
+        private void startNotPokemon_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form4 f4 = new Form4();
+            f4.ShowDialog();
+            this.Close();
+        }
+
+        private void startNotPokemon_MouseHover(object sender, EventArgs e)
+        {
+            nameOfTheGame.Text = "Not Pokémon";
+            BackColor = Color.FromArgb(0, 0, 200);
+            nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
+        }
     }
 }

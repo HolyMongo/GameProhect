@@ -22,3 +22,4 @@ C:\Users\tage.gustafsson\Desktop\GameProhect\GameProhect\GameProhect\obj\Debug\G
 C:\Users\tage.gustafsson\Desktop\GameProhect\GameProhect\GameProhect\obj\Debug\GameProhect.exe
 C:\Users\tage.gustafsson\Desktop\GameProhect\GameProhect\GameProhect\obj\Debug\GameProhect.pdb
 C:\Users\viktor.stromberg1\source\repos\GameProhect\GameProhect\obj\Debug\GameProhect.Form3.resources
+C:\Users\viktor.stromberg1\source\repos\GameProhect\GameProhect\obj\Debug\GameProhect.Form4.resources
