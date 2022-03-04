@@ -21,7 +21,10 @@ namespace GameProhect
         private void Form2_Load(object sender, EventArgs e)
         {
             label2.Location = new Point((this.Width / 2) - (label2.Width / 2), label2.Location.Y);
-            
+            //music
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer();
+            player.SoundLocation = @"../../LofiMusic.wav";
+            player.Play();
         }
 
         public Form2()

@@ -118,26 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="backdrop" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\backdrop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="aguatortor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\aguatortor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="aguakat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aguakat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="plonttortor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\plonttortor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="firetortor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\firetortor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="aguaDawge" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\aguaDawge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="aguakat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\aguakat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="elementTable" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\elementTable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plontkat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plontkat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fayaDawge" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fayaDawge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,10 +136,22 @@
   <data name="fayakat" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fayakat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="aguatortor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aguatortor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aguaDawge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aguaDawge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="firetortor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\firetortor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="plontDawge" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\plontDawge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="plontkat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\plontkat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="backdrop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backdrop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PizzaDoBeSpinnin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PizzaDoBeSpinnin.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

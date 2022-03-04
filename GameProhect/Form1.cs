@@ -28,11 +28,7 @@ namespace GameProhect
 {
     public partial class Form1 : Form
     {
-        bool stillHovering2DPlatformer;
-        bool stillHovringSnake;
-        bool stillHovring3IRad;
-        bool stillHovringKebabpizza;
-        bool stillHoveringStart;
+      
 
 
         public Form1()
@@ -57,18 +53,15 @@ namespace GameProhect
         
          
         private void start2DPlatformer_MouseEnter(object sender, EventArgs e)
-        {
-            stillHovering2DPlatformer = true;
-            
+        {           
 
         }
 
         private void start2DPlatformer_MouseLeave(object sender, EventArgs e)
         {
-            stillHovering2DPlatformer = false;
-            //nameOfTheGame.Text = "Start";
-            //BackColor = Color.LightBlue;
-            //nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
+            nameOfTheGame.Text = "Start";
+            BackColor = Color.LightBlue;
+            nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
         }
 
         private void Start3IRad_MouseEnter(object sender, EventArgs e)
@@ -138,20 +131,7 @@ namespace GameProhect
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (stillHovering2DPlatformer == true || stillHovring3IRad == true || stillHovringKebabpizza == true || stillHovringSnake == true)
-            {
-
-                if (stillHovering2DPlatformer == true)
-                {
-                    Thread.Sleep(1000);
-                    if (stillHovering2DPlatformer == true)
-                    {
-                        nameOfTheGame.Text = "2D Platformer";
-                        BackColor = Color.FromArgb(0, 200, 0);
-                        nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
-                    }
-                }
-            }
+      
         }
         private void start2DPlatformer_Click(object sender, EventArgs e)
         {
@@ -185,6 +165,14 @@ namespace GameProhect
             nameOfTheGame.Text = "Not Pokémon";
             BackColor = Color.FromArgb(0, 0, 200);
             nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
+        }
+
+        private void startPizzaMedKebab_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form5 f5 = new Form5();
+            f5.ShowDialog();
+            this.Close();
         }
     }
 }

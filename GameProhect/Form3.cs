@@ -36,7 +36,7 @@ namespace GameProhect
                 {
                     if ((string)x.Tag == "coin")
                     {
-                        x.Size = new Size(50, 50);
+                        x.Size = new Size(28, 31);
                     }
                 }
             }
@@ -113,7 +113,7 @@ namespace GameProhect
                     {
                         GameTimer.Stop();
                         isGameOver = true;
-                        txtScore.Text = "score: " + score + Environment.NewLine + "You was killed. Game over";
+                        txtScore.Text = "score: " + score + Environment.NewLine + "You was killed. Game over" + Environment.NewLine + "Press \"Enter\" To Restart!";
 
                     }
                 }
@@ -150,8 +150,8 @@ namespace GameProhect
             {
                 GameTimer.Stop();
                 isGameOver = true;
-                txtScore.Text = "Score: " + score + Environment.NewLine + "You fell to your death. Game Over";
-            }
+                txtScore.Text = "Score: " + score + Environment.NewLine + "You fell to your death. Game Over" + Environment.NewLine + "Press \"Enter\" To Restart!";
+            } 
           
             //Player touches door and wins if they have more than 25 coins collected
             if (player.Bounds.IntersectsWith(Door.Bounds))
@@ -161,7 +161,7 @@ namespace GameProhect
 
                 GameTimer.Stop();
                 isGameOver = true;
-                txtScore.Text = "Score: " + score + Environment.NewLine + "Your adventure is over. YOU WIN";
+                txtScore.Text = "Score: " + score + Environment.NewLine + "Your adventure is over. YOU WIN" + Environment.NewLine + "Press \"Enter\" To Restart!";
                 }
             }
           
@@ -241,7 +241,8 @@ namespace GameProhect
             horizontalPlatform.Left = 265;
             verticalPlatform.Top = 460;
 
-
+            Door.Location = new Point(Door.Location.X, pictureBox8.Location.Y - Door.Height);
+          
 
         }
 

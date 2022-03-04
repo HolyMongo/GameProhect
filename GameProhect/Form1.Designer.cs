@@ -39,10 +39,10 @@
             // 
             // start2DPlatformer
             // 
-            this.start2DPlatformer.Location = new System.Drawing.Point(39, 280);
-            this.start2DPlatformer.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.start2DPlatformer.Location = new System.Drawing.Point(35, 224);
+            this.start2DPlatformer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.start2DPlatformer.Name = "start2DPlatformer";
-            this.start2DPlatformer.Size = new System.Drawing.Size(117, 63);
+            this.start2DPlatformer.Size = new System.Drawing.Size(104, 50);
             this.start2DPlatformer.TabIndex = 0;
             this.start2DPlatformer.Text = "2D Platformer";
             this.start2DPlatformer.UseVisualStyleBackColor = true;
@@ -55,19 +55,19 @@
             // 
             this.nameOfTheGame.AutoSize = true;
             this.nameOfTheGame.Font = new System.Drawing.Font("Comic Sans MS", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nameOfTheGame.Location = new System.Drawing.Point(152, 25);
+            this.nameOfTheGame.Location = new System.Drawing.Point(135, 20);
             this.nameOfTheGame.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.nameOfTheGame.Name = "nameOfTheGame";
-            this.nameOfTheGame.Size = new System.Drawing.Size(193, 84);
+            this.nameOfTheGame.Size = new System.Drawing.Size(163, 71);
             this.nameOfTheGame.TabIndex = 1;
             this.nameOfTheGame.Text = "Start";
             // 
             // start3IRad
             // 
-            this.start3IRad.Location = new System.Drawing.Point(294, 280);
-            this.start3IRad.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.start3IRad.Location = new System.Drawing.Point(261, 224);
+            this.start3IRad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.start3IRad.Name = "start3IRad";
-            this.start3IRad.Size = new System.Drawing.Size(117, 63);
+            this.start3IRad.Size = new System.Drawing.Size(104, 50);
             this.start3IRad.TabIndex = 2;
             this.start3IRad.Text = "3 I Rad";
             this.start3IRad.UseVisualStyleBackColor = true;
@@ -78,23 +78,24 @@
             // 
             // startPizzaMedKebab
             // 
-            this.startPizzaMedKebab.Location = new System.Drawing.Point(294, 492);
-            this.startPizzaMedKebab.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.startPizzaMedKebab.Location = new System.Drawing.Point(261, 394);
+            this.startPizzaMedKebab.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.startPizzaMedKebab.Name = "startPizzaMedKebab";
-            this.startPizzaMedKebab.Size = new System.Drawing.Size(117, 63);
+            this.startPizzaMedKebab.Size = new System.Drawing.Size(104, 50);
             this.startPizzaMedKebab.TabIndex = 4;
             this.startPizzaMedKebab.Text = "Nils special";
             this.startPizzaMedKebab.UseVisualStyleBackColor = true;
+            this.startPizzaMedKebab.Click += new System.EventHandler(this.startPizzaMedKebab_Click);
             this.startPizzaMedKebab.MouseEnter += new System.EventHandler(this.StartPizzaMedKebab_MouseEnter);
             this.startPizzaMedKebab.MouseLeave += new System.EventHandler(this.StartPizzaMedKebab_MouseLeave);
             this.startPizzaMedKebab.MouseHover += new System.EventHandler(this.startPizzaMedKebab_MouseHover);
             // 
             // startNotPokemon
             // 
-            this.startNotPokemon.Location = new System.Drawing.Point(39, 492);
-            this.startNotPokemon.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.startNotPokemon.Location = new System.Drawing.Point(35, 394);
+            this.startNotPokemon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.startNotPokemon.Name = "startNotPokemon";
-            this.startNotPokemon.Size = new System.Drawing.Size(117, 63);
+            this.startNotPokemon.Size = new System.Drawing.Size(104, 50);
             this.startNotPokemon.TabIndex = 3;
             this.startNotPokemon.Text = "Not Pokémon";
             this.startNotPokemon.UseVisualStyleBackColor = true;
@@ -109,15 +110,16 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(478, 645);
+            this.ClientSize = new System.Drawing.Size(425, 516);
             this.Controls.Add(this.startPizzaMedKebab);
             this.Controls.Add(this.startNotPokemon);
             this.Controls.Add(this.start3IRad);
             this.Controls.Add(this.nameOfTheGame);
             this.Controls.Add(this.start2DPlatformer);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Start";
             this.Load += new System.EventHandler(this.Form1_Load);
