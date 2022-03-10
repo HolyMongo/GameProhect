@@ -24,7 +24,7 @@ namespace GameProhect
             //music
             System.Media.SoundPlayer player = new System.Media.SoundPlayer();
             player.SoundLocation = @"../../LofiMusic.wav";
-            player.Play();
+            player.PlayLooping();
         }
 
         public Form2()

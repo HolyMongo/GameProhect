@@ -45,7 +45,9 @@ namespace GameProhect
             startNotPokemon.Location = new Point((this.Width / 2) - (startNotPokemon.Width / 2) + 80, startNotPokemon.Location.Y);
             startPizzaMedKebab.Location = new Point((this.Width / 2) - (startPizzaMedKebab.Width / 2) - 80, startPizzaMedKebab.Location.Y);
             nameOfTheGame.BackColor = Color.Transparent;
-            timer1.Start();
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer();
+            player.SoundLocation = @"../../WiiShopMusic.wav";
+            player.PlayLooping();
         }
 
 		

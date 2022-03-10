@@ -25,3 +25,4 @@ C:\Users\viktor.stromberg1\source\repos\GameProhect\GameProhect\obj\Debug\GamePr
 C:\Users\tage.gustafsson\Desktop\GameProhect\GameProhect\GameProhect\obj\Debug\GameProhect.Form3.resources
 C:\Users\tage.gustafsson\Desktop\GameProhect\GameProhect\GameProhect\obj\Debug\GameProhect.Form4.resources
 C:\Users\tage.gustafsson\Desktop\GameProhect\GameProhect\GameProhect\obj\Debug\GameProhect.Form5.resources
+C:\Users\viktor.stromberg1\source\repos\GameProhect\GameProhect\obj\Debug\GameProhect.Form5.resources

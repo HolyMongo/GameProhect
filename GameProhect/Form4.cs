@@ -15,6 +15,7 @@ namespace GameProhect
         public partial class Form4 : Form
         {
 
+            System.Media.SoundPlayer splayer = new System.Media.SoundPlayer();
             double playerHealth = 1000, enemyHealth = 1000, playerDamage = 300, enemyDamage = 200;
 
             string playerAnimal, playerElement, enemyAnimal, enemyElement;
@@ -29,6 +30,8 @@ namespace GameProhect
             private void Form4_Load(object sender, EventArgs e)
             {
                 bringUpCharSelect(sender, e);
+                splayer.SoundLocation = @"../../BAttlemusique.wav";
+                splayer.PlayLooping();
             }
 
             private void bringUpCharSelect(object sender, EventArgs e)
@@ -46,7 +49,10 @@ namespace GameProhect
                     }
                 }
                 closeInformation.SendToBack();
-            }
+            endingScreenText.Visible = false;
+            endingScreenReset.Visible = false;
+            endingScreenReset.Enabled = false;
+        }
 
 
             private void fire_Click(object sender, EventArgs e)
@@ -274,14 +280,25 @@ namespace GameProhect
                 endingScreen.SendToBack();
                 endingScreenReset.SendToBack();
                 endingScreenText.SendToBack();
+                endingScreenText.Visible = false;
+                endingScreenReset.Visible = false;
+                endingScreenReset.Enabled = false;
                 mainMeny.SendToBack();
                 bringUpCharSelect(sender, e);
+                playerAnimal = null;
+                playerElement = null;
+                cat.BackColor = Color.White;
+                dog.BackColor = Color.White;
+                turtle.BackColor = Color.White;
+                fire.BackColor = Color.White;
+                grass.BackColor = Color.White;
+                water.BackColor = Color.White;
 
-                //this.Hide();
-                //Form4 f4 = new Form4();
-                //f4.ShowDialog();
-                //this.Close();
-            }
+            //this.Hide();
+            //Form4 f4 = new Form4();
+            //f4.ShowDialog();
+            //this.Close();
+        }
 
 
 
@@ -290,6 +307,7 @@ namespace GameProhect
                 this.Hide();
                 Form1 f1 = new Form1();
                 f1.ShowDialog();
+                splayer.Stop();
                 this.Close();
             }
 
@@ -300,6 +318,9 @@ namespace GameProhect
                     endingScreen.BringToFront();
                     endingScreenText.BringToFront();
                     endingScreenReset.BringToFront();
+                    endingScreenReset.Enabled = true;
+                    endingScreenReset.Visible = true;
+                    endingScreenText.Visible = true;
                     mainMeny.BringToFront();
                     endingScreenText.Text = "You Win!!";
                     endingScreen.Visible = true;
@@ -310,6 +331,9 @@ namespace GameProhect
                     endingScreen.BringToFront();
                     endingScreenText.BringToFront();
                     endingScreenReset.BringToFront();
+                    endingScreenReset.Enabled = true;
+                    endingScreenReset.Visible = true;
+                    endingScreenText.Visible = true;
                     mainMeny.BringToFront();
                     endingScreenText.Text = "You Lose!!";
                     endingScreen.Visible = true;

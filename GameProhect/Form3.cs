@@ -40,6 +40,9 @@ namespace GameProhect
                     }
                 }
             }
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer();
+            player.SoundLocation = @"../../Shrekophone.wav";
+            player.PlayLooping();
         }
         public Form3()
         {

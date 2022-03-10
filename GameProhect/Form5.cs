@@ -22,7 +22,7 @@ namespace GameProhect
             this.Size = pictureBox1.Size;
             System.Media.SoundPlayer player = new System.Media.SoundPlayer();
             player.SoundLocation = @"../../Holymusic.wav";
-            player.Play();
+            player.PlayLooping();
         }
     }
 }
