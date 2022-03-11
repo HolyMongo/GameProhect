@@ -34,8 +34,6 @@ namespace GameProhect
         public Form1()
         {
             InitializeComponent();
-            
-
         }
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -50,14 +48,6 @@ namespace GameProhect
             player.PlayLooping();
         }
 
-		
-        
-        
-         
-        private void start2DPlatformer_MouseEnter(object sender, EventArgs e)
-        {           
-
-        }
 
         private void start2DPlatformer_MouseLeave(object sender, EventArgs e)
         {
@@ -66,11 +56,7 @@ namespace GameProhect
             nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
         }
 
-        private void Start3IRad_MouseEnter(object sender, EventArgs e)
-        {
-           
-        }
-
+      
         private void Start3IRad_MouseLeave(object sender, EventArgs e)
         {
             nameOfTheGame.Text = "Start";
@@ -80,32 +66,25 @@ namespace GameProhect
 
         private void StartSnake_MouseLeave(object sender, EventArgs e)
         {
-            //nameOfTheGame.Text = "Start";
-            //BackColor = Color.LightBlue;
-            //nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
+            nameOfTheGame.Text = "Start";
+            BackColor = Color.LightBlue;
+            nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
         }
 
-        private void StartPizzaMedKebab_MouseEnter(object sender, EventArgs e)
-        {
-            
-        }
 
         private void StartPizzaMedKebab_MouseLeave(object sender, EventArgs e)
         {
-            //nameOfTheGame.Text = "Start";
-            //BackColor = Color.LightBlue;
-            //nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
+            nameOfTheGame.Text = "Start";
+            BackColor = Color.LightBlue;
+            nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
         }
 
        
-        
-
-
-
-
         private void start2DPlatformer_MouseHover(object sender, EventArgs e)
         {
-           
+            nameOfTheGame.Text = "Bean adventure";
+            BackColor = Color.FromArgb(169, 35, 94);
+            nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
         }
 
         private void start3IRad_MouseHover(object sender, EventArgs e)
@@ -114,8 +93,6 @@ namespace GameProhect
             BackColor = Color.FromArgb(200, 0, 0);
             nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
         }
-
-       
 
         private void startPizzaMedKebab_MouseHover(object sender, EventArgs e)
         {
@@ -131,9 +108,11 @@ namespace GameProhect
             nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void startNotPokemon_MouseHover(object sender, EventArgs e)
         {
-      
+            nameOfTheGame.Text = "Not Pokémon";
+            BackColor = Color.FromArgb(0, 0, 200);
+            nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
         }
         private void start2DPlatformer_Click(object sender, EventArgs e)
         {
@@ -162,12 +141,6 @@ namespace GameProhect
             this.Close();
         }
 
-        private void startNotPokemon_MouseHover(object sender, EventArgs e)
-        {
-            nameOfTheGame.Text = "Not Pokémon";
-            BackColor = Color.FromArgb(0, 0, 200);
-            nameOfTheGame.Location = new Point((this.Width / 2) - (nameOfTheGame.Width / 2), nameOfTheGame.Location.Y);
-        }
 
         private void startPizzaMedKebab_Click(object sender, EventArgs e)
         {

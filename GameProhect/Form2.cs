@@ -297,5 +297,13 @@ namespace GameProhect
             isGameOver = false;
         }
 
+
+        private void MainMeny_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 f1 = new Form1();
+            f1.ShowDialog();
+            this.Hide();
+        }
     }
 }

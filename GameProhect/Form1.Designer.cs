@@ -28,26 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.start2DPlatformer = new System.Windows.Forms.Button();
             this.nameOfTheGame = new System.Windows.Forms.Label();
             this.start3IRad = new System.Windows.Forms.Button();
             this.startPizzaMedKebab = new System.Windows.Forms.Button();
             this.startNotPokemon = new System.Windows.Forms.Button();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // start2DPlatformer
             // 
-            this.start2DPlatformer.Location = new System.Drawing.Point(35, 224);
-            this.start2DPlatformer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.start2DPlatformer.Location = new System.Drawing.Point(39, 280);
+            this.start2DPlatformer.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.start2DPlatformer.Name = "start2DPlatformer";
-            this.start2DPlatformer.Size = new System.Drawing.Size(104, 50);
+            this.start2DPlatformer.Size = new System.Drawing.Size(117, 62);
             this.start2DPlatformer.TabIndex = 0;
             this.start2DPlatformer.Text = "2D Platformer";
             this.start2DPlatformer.UseVisualStyleBackColor = true;
             this.start2DPlatformer.Click += new System.EventHandler(this.start2DPlatformer_Click);
-            this.start2DPlatformer.MouseEnter += new System.EventHandler(this.start2DPlatformer_MouseEnter);
             this.start2DPlatformer.MouseLeave += new System.EventHandler(this.start2DPlatformer_MouseLeave);
             this.start2DPlatformer.MouseHover += new System.EventHandler(this.start2DPlatformer_MouseHover);
             // 
@@ -55,65 +52,58 @@
             // 
             this.nameOfTheGame.AutoSize = true;
             this.nameOfTheGame.Font = new System.Drawing.Font("Comic Sans MS", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nameOfTheGame.Location = new System.Drawing.Point(135, 20);
+            this.nameOfTheGame.Location = new System.Drawing.Point(152, 25);
             this.nameOfTheGame.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.nameOfTheGame.Name = "nameOfTheGame";
-            this.nameOfTheGame.Size = new System.Drawing.Size(163, 71);
+            this.nameOfTheGame.Size = new System.Drawing.Size(193, 84);
             this.nameOfTheGame.TabIndex = 1;
             this.nameOfTheGame.Text = "Start";
             // 
             // start3IRad
             // 
-            this.start3IRad.Location = new System.Drawing.Point(261, 224);
-            this.start3IRad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.start3IRad.Location = new System.Drawing.Point(294, 280);
+            this.start3IRad.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.start3IRad.Name = "start3IRad";
-            this.start3IRad.Size = new System.Drawing.Size(104, 50);
+            this.start3IRad.Size = new System.Drawing.Size(117, 62);
             this.start3IRad.TabIndex = 2;
             this.start3IRad.Text = "3 I Rad";
             this.start3IRad.UseVisualStyleBackColor = true;
             this.start3IRad.Click += new System.EventHandler(this.start3IRad_Click);
-            this.start3IRad.MouseEnter += new System.EventHandler(this.Start3IRad_MouseEnter);
             this.start3IRad.MouseLeave += new System.EventHandler(this.Start3IRad_MouseLeave);
             this.start3IRad.MouseHover += new System.EventHandler(this.start3IRad_MouseHover);
             // 
             // startPizzaMedKebab
             // 
-            this.startPizzaMedKebab.Location = new System.Drawing.Point(261, 394);
-            this.startPizzaMedKebab.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.startPizzaMedKebab.Location = new System.Drawing.Point(294, 492);
+            this.startPizzaMedKebab.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.startPizzaMedKebab.Name = "startPizzaMedKebab";
-            this.startPizzaMedKebab.Size = new System.Drawing.Size(104, 50);
+            this.startPizzaMedKebab.Size = new System.Drawing.Size(117, 62);
             this.startPizzaMedKebab.TabIndex = 4;
             this.startPizzaMedKebab.Text = "Nils special";
             this.startPizzaMedKebab.UseVisualStyleBackColor = true;
             this.startPizzaMedKebab.Click += new System.EventHandler(this.startPizzaMedKebab_Click);
-            this.startPizzaMedKebab.MouseEnter += new System.EventHandler(this.StartPizzaMedKebab_MouseEnter);
             this.startPizzaMedKebab.MouseLeave += new System.EventHandler(this.StartPizzaMedKebab_MouseLeave);
             this.startPizzaMedKebab.MouseHover += new System.EventHandler(this.startPizzaMedKebab_MouseHover);
             // 
             // startNotPokemon
             // 
-            this.startNotPokemon.Location = new System.Drawing.Point(35, 394);
-            this.startNotPokemon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.startNotPokemon.Location = new System.Drawing.Point(39, 492);
+            this.startNotPokemon.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.startNotPokemon.Name = "startNotPokemon";
-            this.startNotPokemon.Size = new System.Drawing.Size(104, 50);
+            this.startNotPokemon.Size = new System.Drawing.Size(117, 62);
             this.startNotPokemon.TabIndex = 3;
             this.startNotPokemon.Text = "Not Pokémon";
             this.startNotPokemon.UseVisualStyleBackColor = true;
             this.startNotPokemon.Click += new System.EventHandler(this.startNotPokemon_Click);
-            this.startNotPokemon.MouseEnter += new System.EventHandler(this.startNotPokemon_MouseHover);
             this.startNotPokemon.MouseLeave += new System.EventHandler(this.StartSnake_MouseLeave);
             this.startNotPokemon.MouseHover += new System.EventHandler(this.startNotPokemon_MouseHover);
             // 
-            // timer1
-            // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(425, 516);
+            this.ClientSize = new System.Drawing.Size(478, 645);
             this.Controls.Add(this.startPizzaMedKebab);
             this.Controls.Add(this.startNotPokemon);
             this.Controls.Add(this.start3IRad);
@@ -136,7 +126,6 @@
         private System.Windows.Forms.Button start3IRad;
         private System.Windows.Forms.Button startPizzaMedKebab;
         private System.Windows.Forms.Button startNotPokemon;
-        private System.Windows.Forms.Timer timer1;
     }
 }
 

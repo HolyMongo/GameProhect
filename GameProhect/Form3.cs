@@ -116,7 +116,8 @@ namespace GameProhect
                     {
                         GameTimer.Stop();
                         isGameOver = true;
-                        txtScore.Text = "score: " + score + Environment.NewLine + "You was killed. Game over" + Environment.NewLine + "Press \"Enter\" To Restart!";
+                        txtScore.BringToFront();
+                        txtScore.Text = "score: " + score + Environment.NewLine + "You was killed. Game over" + Environment.NewLine + "Press \"Enter\" To Restart!" + Environment.NewLine + "Press \"esc\" To go back to main meny!";
 
                     }
                 }
@@ -153,7 +154,8 @@ namespace GameProhect
             {
                 GameTimer.Stop();
                 isGameOver = true;
-                txtScore.Text = "Score: " + score + Environment.NewLine + "You fell to your death. Game Over" + Environment.NewLine + "Press \"Enter\" To Restart!";
+                txtScore.BringToFront();
+                txtScore.Text = "Score: " + score + Environment.NewLine + "You fell to your death. Game Over" + Environment.NewLine + "Press \"Enter\" To Restart!" + Environment.NewLine + "Press \"esc\" To go back to main meny!";
             } 
           
             //Player touches door and wins if they have more than 25 coins collected
@@ -162,9 +164,10 @@ namespace GameProhect
                 if (score == 25)
                 {
 
-                GameTimer.Stop();
-                isGameOver = true;
-                txtScore.Text = "Score: " + score + Environment.NewLine + "Your adventure is over. YOU WIN" + Environment.NewLine + "Press \"Enter\" To Restart!";
+                    GameTimer.Stop();
+                    isGameOver = true;
+                    txtScore.BringToFront();
+                    .Text = "Score: " + score + Environment.NewLine + "Your adventure is over. YOU WIN" + Environment.NewLine + "Press \"Enter\" To Restart!" + Environment.NewLine + "Press \"esc\" To go back to main meny!";
                 }
             }
           
@@ -187,7 +190,13 @@ namespace GameProhect
             {
                 Jumping = true;
             }
-            
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Hide();
+                Form1 f1 = new Form1();
+                f1.ShowDialog();
+                this.Hide();
+            }
         }
 
 
@@ -210,6 +219,8 @@ namespace GameProhect
             {
                 RestartGame();
             }
+           
+
 
         }
         //resets game and everything

@@ -41,6 +41,7 @@ namespace GameProhect
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.reset = new System.Windows.Forms.Button();
+            this.MainMeny = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // a1
@@ -154,12 +155,23 @@ namespace GameProhect
             this.reset.UseVisualStyleBackColor = true;
             this.reset.Click += new System.EventHandler(this.reset_Click);
             // 
+            // MainMeny
+            // 
+            this.MainMeny.Location = new System.Drawing.Point(76, 547);
+            this.MainMeny.Name = "MainMeny";
+            this.MainMeny.Size = new System.Drawing.Size(120, 38);
+            this.MainMeny.TabIndex = 12;
+            this.MainMeny.Text = "Main Meny";
+            this.MainMeny.UseVisualStyleBackColor = true;
+            this.MainMeny.Click += new System.EventHandler(this.MainMeny_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(538, 597);
+            this.Controls.Add(this.MainMeny);
             this.Controls.Add(this.reset);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -194,5 +206,6 @@ namespace GameProhect
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button reset;
+        private System.Windows.Forms.Button MainMeny;
     }
 }
