@@ -166,8 +166,8 @@ namespace GameProhect
 
                     GameTimer.Stop();
                     isGameOver = true;
+                    Text = "Score: " + score + Environment.NewLine + "Your adventure is over. YOU WIN" + Environment.NewLine + "Press \"Enter\" To Restart!" + Environment.NewLine + "Press \"esc\" To go back to main meny!";
                     txtScore.BringToFront();
-                    .Text = "Score: " + score + Environment.NewLine + "Your adventure is over. YOU WIN" + Environment.NewLine + "Press \"Enter\" To Restart!" + Environment.NewLine + "Press \"esc\" To go back to main meny!";
                 }
             }
           
